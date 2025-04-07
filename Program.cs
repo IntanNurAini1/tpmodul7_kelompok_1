@@ -1,10 +1,14 @@
+using System;
 
-﻿using System;
-
-class Program
-{
-    static void Main(string[] args)
+    class Program
     {
+        static void Main(string[] args)
+        {
+        DataMahasiswa103022300087 DataAgung = new DataMahasiswa103022300087();
+        DataAgung.ReadJSON();
+        KuliahMahasiswa103022300087 KuliahAgung = new KuliahMahasiswa103022300087();
+        KuliahAgung.ReadJSON();
+
         var DataIqbal = new DataMahasiswa103022300146();
 
         Console.WriteLine("Memulai proses membaca data mahasiswa...");
@@ -49,3 +53,4 @@ class Program
 
     }
 }
+
