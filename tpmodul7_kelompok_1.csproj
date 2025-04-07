@@ -9,6 +9,9 @@
 
   <ItemGroup>
     <!-- Compile semua file class dari masing-masing NIM -->
+    <Compile Update="Program.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
     <Compile Update="DataMahasiswa103022330067.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
@@ -25,6 +28,12 @@
 
   <ItemGroup>
     <!-- Semua file JSON dari berbagai NIM -->
+    <None Update="tp7_1_103022300146.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="tp7_2_103022300146.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="tp7_1_103022330067.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
