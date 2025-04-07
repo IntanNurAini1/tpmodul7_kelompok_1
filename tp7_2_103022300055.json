@@ -1,0 +1,32 @@
+{
+	"courses": [
+		{
+			"code": "CRI2C4",
+			"name": "KONSTRUKSI PERANGKAT LUNAK"
+		},
+		{
+			"code": "CCK3JAB2",
+			"name": "ABOUT BAHAASA INGGRIS: WRITING & SPEAKING"
+		},
+		{
+			"code": "CCK2НАB4",
+			"name": "Basis Data"
+		},
+		{
+			"code": "CCK2IAB3",
+			"name": "Dasar Jaringan Komputer"
+		},
+		{
+			"code": "CCK2LAB3",
+			"name": "KECERDASAN BUATAN"
+		},
+		{
+			"code": "CCK2AAB4",
+			"name": "STRUKTUR DATA"
+		},
+		{
+			"code": "CCK2DDC4",
+			"name": "ALGORITMA PEMROGRAMAN"
+		}
+	]
+}
