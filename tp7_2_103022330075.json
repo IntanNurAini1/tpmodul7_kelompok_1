@@ -1,0 +1,29 @@
+{
+	"courses": [
+		{
+			"code": "CRI2C4",
+			"name": "Konstruksi Perangkat Lunak"
+		},
+		{
+			"code": "CCK2JAb3",
+			"name": "Struktur Data"
+		},
+		{
+			"code": "CCK2Jab5",
+			"name": "Tata tulis Ilmiah"
+		},
+		{
+			"code": "CCK2FAB4",
+			"name": "Arsitektur perangkat Lunak"
+		},
+		{
+			"code": "CCk2IAB3",
+			"name": "Dasar Jaringan Komputer"
+		},
+
+		{
+			"code": "CCK2JAC2",
+			"name": "Proyek Tingkat2"
+		}
+	]
+}
