@@ -2,14 +2,15 @@
 using System.IO;
 using System.Text.Json;
 
-public class Nama
-{
-    public string depan { get; set; }
-    public string belakang { get; set; }
-}
 
 public class DataMahasiswa103022300146
 {
+    public class Nama
+    {
+        public string depan { get; set; }
+        public string belakang { get; set; }
+    }
+
     public Nama nama { get; set; }
     public string nim { get; set; }
     public string fakultas { get; set; }
