@@ -1,7 +1,15 @@
 ﻿class Program
 {
+
     static void Main(string[] args)
     {
+        var mahintan = new DataMahasiswa103022330067();
+        mahintan.ReadJSON();
+        Console.WriteLine();
+        Console.WriteLine("====================================");
+        var kuliahintan = new KuliahMahasiswa103022330067();
+        kuliahintan.ReadJSON();
+        Console.WriteLine("====================================");
       
         var DataSteven = new DataMahasiswa103022300155();
         Console.WriteLine("Memulai proses membaca data mahasiswa...");
@@ -21,3 +29,4 @@
 
     }
 }
+
