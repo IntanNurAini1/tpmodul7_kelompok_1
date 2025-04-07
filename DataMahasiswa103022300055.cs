@@ -21,7 +21,7 @@ public class DataMahasiswa103022300055
     {
         try
         {
-            string path = @"D:\tpmodul7_kelompok_1\tp7_1_103022300055.json";
+            string path = "tp7_1_103022300055.json";
             string jsonString = File.ReadAllText(path);
 
             Mahasiswa mhs = JsonSerializer.Deserialize<Mahasiswa>(jsonString);

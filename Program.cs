@@ -11,7 +11,7 @@
         Console.WriteLine("Memulai proses membaca data mata kuliah...");
         var KuliahSteven = new KuliahMahasiswa103022300155();
         KuliahSteven.ReadJSON();
-        Console.WriteLine("Proses selesai.");
+        Console.WriteLine("Proses selesai.\n");
 
         DataMahasiswa103022300055 data = new DataMahasiswa103022300055();
         data.ReadJSON();

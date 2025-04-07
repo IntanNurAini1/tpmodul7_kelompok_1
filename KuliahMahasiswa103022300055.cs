@@ -20,7 +20,7 @@ public class KuliahMahasiswa103022300055
     {
         try
         {
-            string path = @"D:\tpmodul7_kelompok_1\tp7_2_103022300055.json"; 
+            string path = "tp7_2_103022300055.json"; 
             string jsonString = File.ReadAllText(path);
 
             Root data = JsonSerializer.Deserialize<Root>(jsonString);
